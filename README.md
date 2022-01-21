@@ -18,10 +18,10 @@ Login screen
 
 # Run project locally
 -Getting Started
- create a local environment to install the project dependencies listed at requirements.txt
- virtualenv venv
- source venv/bin/activate
- pip install -r requirements.txt
+  - create a local environment to install the project dependencies listed at requirements.txt
+  - virtualenv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
 - clone this repository git clone https://github.com/myk4040okothogodo/servingSockets.git
 
 - generate a self signed certificate, follow instructions at https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
