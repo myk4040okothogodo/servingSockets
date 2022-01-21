@@ -1,6 +1,13 @@
-Table of Contents
-About The Project
-Product Name Screen Shot
+Features
+- jinja2 interfration to render dynamic content
+- Enabled routing
+- Configurable TCP ports
+- SSL 
+- Url-rewriting enabled
+
+Demo
+Login screen 
+
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: github_username, repo_name, twitter_handle, linkedin_username, email, email_client, project_title, project_description
 
@@ -13,12 +20,24 @@ jinja2
 twisted
 (back to top)
 
-Getting Started
-create a local environment to install the project dependencies listed at requirements.txt
+Run project locally
+-Getting Started
+ create a local environment to install the project dependencies listed at requirements.txt
+ virtualenv venv
+ source venv/bin/activate
+ pip install -r requirements.txt
+- clone this repository git clone https://github.com/myk4040okothogodo/servingSockets
 
-virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
+- generate a self signed certificate, follow instructions at https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+  save the generated documents at the root folder /keys and remember to point to this documents in       servaScript.py  
+
+- run  python servaScript.py
+- go to localhost:8082/login or localhost:8082/register
+- 
+
+
+
+
 
 
 Prerequisites
@@ -75,7 +94,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 (back to top)
 
 Contact
-Your Name - @myk_okoth - email@email_client.com
+Your Name - @myk_okoth - mikeogodo5@gmail.com
 
 Project Link: https://github.com/myk4040okothogodo/servingSockets
 
