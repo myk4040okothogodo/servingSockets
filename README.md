@@ -1,17 +1,13 @@
 Features
-- jinja2 interfration to render dynamic content
+- jinja2 intergration to render dynamic content
 - Enabled routing
 - Configurable TCP ports
-- SSL 
-- Url-rewriting enabled
+- SSL  Integration
+- Url-rewriting/rewiring enabled
 
 Demo
 Login screen 
 
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: github_username, repo_name, twitter_handle, linkedin_username, email, email_client, project_title, project_description
-
-(back to top)
 
 Built With
 python
@@ -33,11 +29,7 @@ Run project locally
 
 - run  python servaScript.py
 - go to localhost:8082/login or localhost:8082/register
-- 
-
-
-
-
+ 
 
 
 Prerequisites
@@ -61,7 +53,8 @@ zope.interface    5.4.0
 
 
 Usage
-the project is a demonstatrion of webserver communication using sockets and the rendering of pages Dynamically and statically.
+the project is a demonstatrion of webserver communication using sockets and the rendering of pages Dynamically and statically. With SSL and Jinja2 for rendering html content.
+You can change the values in the envars.py that holds the variable values to 
 
 For more examples, please refer to the Documentation
 
