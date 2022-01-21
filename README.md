@@ -22,13 +22,13 @@ Login screen
  virtualenv venv
  source venv/bin/activate
  pip install -r requirements.txt
-- clone this repository git clone https://github.com/myk4040okothogodo/servingSockets
+- clone this repository git clone @https://github.com/myk4040okothogodo/servingSockets.git
 
-- generate a self signed certificate, follow instructions at https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+- generate a self signed certificate, follow instructions at @https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
   save the generated documents at the root folder /keys and remember to point to this documents in       servaScript.py  
 
 - run  python servaScript.py
-- go to localhost:8082/login or localhost:8082/register
+- go to @localhost:8082/login or @localhost:8082/register
  
 
 
@@ -75,11 +75,11 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
 #Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-(back to top)
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+@(back to top)
 
 #License
 Distributed under the MIT License. See LICENSE.txt for more information.
