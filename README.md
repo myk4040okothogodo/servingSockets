@@ -22,13 +22,13 @@ Login screen
  virtualenv venv
  source venv/bin/activate
  pip install -r requirements.txt
-- clone this repository git clone @https://github.com/myk4040okothogodo/servingSockets.git
+- clone this repository git clone https://github.com/myk4040okothogodo/servingSockets.git
 
-- generate a self signed certificate, follow instructions at @https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
+- generate a self signed certificate, follow instructions at https://linuxize.com/post/creating-a-self-signed-ssl-certificate/
   save the generated documents at the root folder /keys and remember to point to this documents in       servaScript.py  
 
 - run  python servaScript.py
-- go to @localhost:8082/login or @localhost:8082/register
+- go to localhost:8082/login or localhost:8082/register
  
 
 
@@ -87,9 +87,9 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 (back to top)
 
 # Contact
-Your Name -  @ myk_okoth - @mikeogodo5@gmail.com
+Your Name -   myk_okoth - mikeogodo5@gmail.com
 
-Project Link: @ https://github.com/myk4040okothogodo/servingSockets
+Project Link:  https://github.com/myk4040okothogodo/servingSockets
 
 (back to top)
 
