@@ -30,7 +30,7 @@ Login screen
 - run  python servaScript.py
 - go to localhost:8082/login or localhost:8082/register
 - go to localhost:8082/data/this/that  for url rewiring/rewrite
-- got to localhost:8082/dynamic for dynamic rendering using jinja2
+- go to localhost:8082/dynamic for dynamic rendering using jinja2
  
 
 
@@ -69,7 +69,6 @@ Roadmap
  Nested Feature
 See the open issues for a full list of proposed features (and known issues).
 
-(back to top)
 
 # Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -81,7 +80,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 - Commit your Changes (git commit -m 'Add some AmazingFeature')
 - Push to the Branch (git push origin feature/AmazingFeature)
 - Open a Pull Request
-@ (back to top)
+- 
 
 # License
 Distributed under the MIT License. See LICENSE.txt for more information.
