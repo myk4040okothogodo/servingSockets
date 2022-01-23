@@ -21,7 +21,8 @@ class router:
                 loginView()
             elif self.myfile =="data/rewrite" | "data/rewrite/route":
                 urlRewriteView()  
-                  
+            elif self.myfile == "dynamic":
+                dynamicView()
             else:
                 errorView()            
             
