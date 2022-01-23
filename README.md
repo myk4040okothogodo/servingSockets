@@ -29,6 +29,7 @@ Login screen
 
 - run  python servaScript.py
 - go to localhost:8082/login or localhost:8082/register
+- localhost:8082/data/this/that  for url rewiring/rewrite
  
 
 
