@@ -29,7 +29,8 @@ Login screen
 
 - run  python servaScript.py
 - go to localhost:8082/login or localhost:8082/register
-- localhost:8082/data/this/that  for url rewiring/rewrite
+- go to localhost:8082/data/this/that  for url rewiring/rewrite
+- got to localhost:8082/dynamic for dynamic rendering using jinja2
  
 
 
