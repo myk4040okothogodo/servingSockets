@@ -32,7 +32,7 @@ def handle_request(connection):
 
 host, port = LOCALHOST_NAME,PORT_ADDRESS
 context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-context.load_cert_chain('/home/mykmyk/sava2/keys/Demo.pem', '/home/mykmyk/sava2/keys/Demo.key', password="mike")
+context.load_cert_chain('/home/mykmyk/servingSockets/keys/Demo.pem', '/home/mykmyk/servingSockets/keys/Demo.key', password="mike")
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as my_socket:
     my_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

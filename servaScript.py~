@@ -6,6 +6,8 @@ from envar import *
 import os
 import signal
 import errno
+from clientReq import request
+from url_rewrite import *
 
 def grim_reaper(signum, frame):
     while True:
@@ -21,9 +23,10 @@ def grim_reaper(signum, frame):
             return
 
 def handle_request(connection):
-    request = connection.recv(1024).decode('utf-8')
+    requeststr = connection.recv(1024).decode('utf-8')
+    requestObject = request(requeststr)
     print(request)
-    handleThisRequest = router(request)
+    handleThisRequest = router(rewrite_url(requestObject))
     connection.send(handleThisRequest.routing())
                 
 

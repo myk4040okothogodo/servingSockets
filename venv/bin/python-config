@@ -1,4 +1,4 @@
-#!/home/mykmyk/sava2/venv/bin/python
+#!/home/mykmyk/servingSockets/venv/bin/python
 
 import sys
 import getopt
